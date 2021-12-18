@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio | Billy Alexander</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- mengambil CSS Eksternal -->
+		<link href="assets/css/style.css" rel="stylesheet"  >
+	</head>
+	<body>
+			<section>
+				<div class="splash">
+					<h1 class="Salam">Selamat Pagi!</h1>
+				</div>
+				<nav>
+					<div class="toggle">
+						<button onclick="menu_open()" class="tombol tombol-navigasi">Menu</button>
+					</div>
+					<ul id="menu-list" >
+						<li><a href="#home">Home</a></li>
+						<li><a href="#aboutme">About Me</a></li>
+						<li><a href="#education">Education</a></li>
+					 	<li><a href="#projects">Projects</a></li>
+					</ul>
+					<p class="tanggal"></p>
+				</nav>
+				<div class="sosmed">
+					<div class="isi-sosmed">
+						<a href="https://github.com/billyalx/" target="_blank"><img src="./assets/images/github.png"> </a>
+						<a href="https://api.whatsapp.com/send?phone=6289653174531&text=Hallooo" target="_blank"><img src="./assets/images/wa2.png"></a>
+						<a href="https://www.instagram.com/billyalexndr/" target="_blank"><img src="./assets/images/ig.png"> </a>
+						<a href="mailto:billyalexndr@gmail.com" target="_blank"><img src="./assets/images/gmail.png"></a>
+						<a href="https://line.me/ti/p/DyGeCGR91R" target="_blank"><img src="./assets/images/line.png"></a>
+					</div>
+				</div>
+
+				<div id="home">
+	         		<center>
+	            	<div id="circle3"></div>
+					<div id="circle2"></div>
+					<div id="circle"></div>
+					<div class="title">
+					<h1 class="name">~Hi I'm Billy Alexander!</h1>
+					<p>Mahasiswa Informatika UPNVJ 2021<br/>"Finish What You Started"</p>
+					</div>
+	         		</center>
+	       		</div>
+				<div id="aboutme"></div>
+				<!-- Start SVG Curve -->
+				<svg  id="curve"
+					viewBox="0 0 1400 214.953"
+					xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z"/>
+				</svg>
+				<!-- End SVG Curve -->
+			</section>
+		<div id="wrapper">
+			<section class="sec2" >
+	      		<div class="content">
+					<div>
+	          		<h1 class="title-content">About Me</h1>
+	          		<div class="left-menu">
+					<div class="circle-avatar"></div>
+	          		</div>
+	          			<div class="right-menu">
+							<p>
+								Saya <b class="important">Billy Alexander</b>, biasa dipanggil dengan nama <b class="important">Billy</b>. Saya masih duduk dibangku kuliah pada jurusan <b class="important">S1 Informatika</b> di kampus <b class="important">UPN Veteran Jakarta</b>.
+							</p>
+							<p>
+								Lahir pada bulan    <b class="important">November</b> tanggal    <b class="important">19</b> dan tahun    <b class="important">2003</b>, bertempat di    <b class="important">Tangerang</b>, Banten, Indonesia.
+							</p>
+							<p>
+								Tinggal dan Lahir di Kota    <b class="important">Tangerang</b>, membuat Saya begitu menyukai  <b class="important">Tantangan & Belajar Hal-hal Baru</b> terlebih lagi dalam   <b class="important">Perkembangan Teknologi</b> yang begitu   <b class="important">Pesat</b>.
+	          			</div>
+					</div>
+	      		</div>
+			</section>
+
+			<section class="sec3" id="education">
+	      	<div class="content content-float">
+					<h1 class="title-content">Education</h1>
+					<div class="area-card">
+						<div class="card">
+							<div class="card-header" style="background:url('assets/images/SD.jpg') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SDN KARANG TENGAH 11</b>
+									<br/>
+									<i>2009-2015</i>
+								</p>
+								<a href="#modal-sd" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('assets/images/SMP.jpg') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SMP Negeri 207 <br/>Jakarta Barat</b>
+									<br/>
+									<i>2015-2018</i>
+								</p>
+								<a href="#modal-smp" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('assets/images/SMA.jpg') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SMA Negeri 85 <br/>Jakarta</b>
+									<br/>
+									<i>2018-2021</i>
+								</p>
+								<a href="#modal-sma" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('/assets/images/upnvj.jpg') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>Universitas<br/>Pembangunan Nasional <br/>Veteran Jakarta </b>
+									<br/>
+									<i>2021-Now (SMT 1)</i>
+								</p>
+								<a href="#modal-unsika" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+					</div>
+			</div>
+				<svg  id="curve2"
+						 viewBox="0 0 1400 214.953"
+					 xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z"/>
+				</svg>
+			</section>
+
+			<section class="sec4" id="projects">
+	      	<div class="content">
+					<h1 class="title-content">Projects</h1>
+					<p id="isi-content">
+						<iframe src="/projects/portfolio-bootstrap5/index.html" frameborder="5" id="isi-content"></iframe>
+						<iframe src="/projects/Tugas 1/tugas.html" frameborder="5" id="isi-content"></iframe>
+						<iframe src="/projects/Tugas 2/index.html" frameborder="5" id="isi-content"></iframe>
+					</p>
+				</div>
+			</section>
+
+		</div>
+		<div class="detail" id="modal-sd">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SDN Karang Tengah 11</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Jl. Raden Saleh Blk. Lurah No.52, RT.005/RW.005, Karang Tengah, Kec. Karang Tengah, Kota Tangerang, Banten 15157.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-smp">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SMP Negeri 207 Jakarta Barat</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Jl. Meruya Utara No.2, RT.7/RW.2, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11630.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-sma">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SMA Negeri 85 Jakarta</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Jl. Srengseng Raya RT.04 / RW.03, Srengseng, Kembangan, RT.4/RW.3, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11630.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-unsika">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>Universitas Pembangunan Nasional Veteran Jakarta</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Jl. RS. Fatmawati Raya, Pd. Labu, Kec. Cilandak, Kota Depok, Daerah Khusus Ibukota Jakarta 12450.
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function menu_open() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " tampilkan";
+				tombol_navigasi.setAttribute('onclick', 'menu_close()');
+			}
+
+			function menu_close() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " hidden";
+				tombol_navigasi.setAttribute('onclick', 'menu_open()');
+			}
+		</script>
+		<script src="./assets/script/splash.js"></script>
+		<script src="./assets/script/tanggal.js"></script>
+	</body>
+</html>
